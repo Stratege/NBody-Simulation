@@ -1,0 +1,43 @@
+any line that is supposed to be parsed must be strictly in the format:
+name1 number1 number2 number3 name2
+whereby:
+name1 = name of the planet
+number1 = maximum distance from parent (= aphelion)
+number2 = semiMajor distance from parent
+number3 = mass of planet
+name2 = name of the parent body
+
+also there needs to be 1 planet of the format:
+name1 0 0 number3 name1
+meaning that name and parent name must be the same, and aphelion and semi major distance needs to be 0, this will be recognized as the parent body around which everything orbits in some way or another and therefor any other bodies need to be defined in a way that they orbit this body (or bodies which orbit this body ... or bodies which orbit bodies which orbit this body and so on and so forth)
+
+distances are in astronomical units, mass in kilograms
+
+Sun 0 0 1.989e30 Sun
+
+Mercury 0.467 0.3871 3.301e23 Sun
+
+Venus 0.728213 0.723327 4.8676e24 Sun
+
+Earth 1.017 1 5.974e24 Sun
+Moon 2.7106e-3 2.5695553e-3 7.349e22 Earth
+
+Mars 1.666 1.524 6.419e23 Sun
+
+Jupiter 5.46 5.203 1.899e27 Sun
+Io 0.002830 0.002819 8.931e22 Jupiter
+Europa 0.004525 0.004486 4.799e22 Jupiter
+Ganymede 0.007163 0.007155 1.4819e23 Jupiter
+Callisto 0.01268 0.012585 1.0759e23 Jupiter
+
+Saturn 10.115 9.582 5.6846e26 Sun
+Titan 0.008402 0.008167 1.3452e23 Saturn
+
+Uranus 20.095 19.189 8.6810e25 Sun
+
+Neptune 30.331 30.070 1.0243e26 Sun
+
+Pluto 49.305 39.482 1.25e22 Sun
+Charon 1.32e-4 1.308e-4 1.52e21 Pluto
+
+Eris 97.65 67.78 1.67e22 Sun

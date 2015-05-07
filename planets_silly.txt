@@ -1,0 +1,7 @@
+Discord 0 0 1 Discord
+
+Sun 0.03871 0.03871 1.989e30 Discord
+
+Cadence 1 -2 1.989e30 Discord
+
+Earth 1.017 1 5.974e24 Sun

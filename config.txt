@@ -1,0 +1,3 @@
+stepSize 2000
+stepsPerFrame 40
+zoomLevel -30

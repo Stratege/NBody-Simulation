@@ -1,0 +1,4 @@
+1-0 (non-numpad) to switch between planets
+e/d to speed up/slow down the simulation speed (no precision loss but increased CPU cost)
+r/f to zoom in/out
+t/g to switch between planets
